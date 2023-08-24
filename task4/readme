@@ -1,0 +1,4 @@
+Для сборки выполнить:
+make -C /lib/modules/$(shell uname -r)/build M=$(pwd) modules
+После сборки модуль загрузить командой:
+sudo insmod sysfs_keyboard.ko
