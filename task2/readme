@@ -1,5 +1,5 @@
 Чтобы собрать модуль:
-make -C /lib/modules/$(uname -r)/build M=$(pwd) modules
+make
 
 Чтобы загрузить модуль:
 sudo insmod proc_module.ko
