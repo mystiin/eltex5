@@ -1,0 +1,4 @@
+Для сборки
+make
+Для загрузки
+sudo insmod kernel_space.ko
