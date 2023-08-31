@@ -1,5 +1,0 @@
-Чтобы собрать модуль:
-make
-
-Чтобы загрузить модуль:
-sudo insmod proc_module.ko
