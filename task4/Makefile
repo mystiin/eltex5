@@ -1,4 +1,4 @@
-obj-m += sys_light.o
+obj-m += light.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
