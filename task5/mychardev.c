@@ -45,7 +45,7 @@ static int __init chardev_init(void) {
     } 
     pr_info("I was assigned major number %d.\n", major); 
  
-    cls = class_create(DEVICE_NAME); 
+    cls = class_create(THIS_MODULE, DEVICE_NAME); 
     device_create(cls, NULL, MKDEV(major, 0), NULL, DEVICE_NAME); 
     pr_info("Device created on /dev/%s\n", DEVICE_NAME); 
     return SUCCESS; 
